@@ -1,4 +1,4 @@
-# gridsome-plugin-vue2-composition-api
+# gridsome-plugin-composition-api
 
 > Composition API for Gridsome with Vue2
 
@@ -11,9 +11,9 @@ Once Gridsome migrates to Vue3 this plugin becomes obsolete, but you'll have an 
 
 Use yarn or npm to install it:
 
-* `yarn add -D gridsome-plugin-vue2-composition-api`
-* `npm install -D gridsome-plugin-vue2-composition-api`
-* add `gridsome-plugin-vue2-composition-api` in `devDependencies` section in your `package.json` file.
+* `yarn add -D gridsome-plugin-composition-api`
+* `npm install -D gridsome-plugin-composition-api`
+* add `gridsome-plugin-composition-api` in `devDependencies` section in your `package.json` file.
 
 ### Usage
 
@@ -23,7 +23,7 @@ Add `gridsome-plugin-vue2-composition-api` in your `gridsome.config`
 module.exports = {
   plugins: [
     {
-      use: 'gridsome-plugin-vue2-composition-api',
+      use: 'gridsome-plugin-composition-api',
     }
   ]
 }
