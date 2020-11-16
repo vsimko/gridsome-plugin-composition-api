@@ -1,0 +1,39 @@
+{
+   "name": "gridsome-vue2-composition-api",
+   "description": "Composition API for Gridsome with Vue2",
+   "version": "0.0.1",
+   "license": "MIT",
+   "homepage": "https://github.com/vsimko/gridsome-plugin-vue2-composition-api",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/vsimko/gridsome-plugin-vue2-composition-api"
+   },
+   "bugs": {
+      "url": "https://github.com/vsimko/gridsome-plugin-vue2-composition-api/issues"
+   },
+   "main": "index.js",
+   "author": {
+      "name": "Viliam Simko",
+      "email": "viliam.simko@gmail.com"
+   },
+   "engines": {
+      "node": ">=10.15.0"
+   },
+   "keywords": [
+      "gridsome",
+      "gridsome-plugin",
+      "vue",
+      "vue2",
+      "composition-api"
+   ],
+   "scripts": {
+      "release": "standard-version",
+      "@vue/composition-api": "*"
+   },
+   "peerDependencies": {
+      "gridsome": "*"
+   },
+   "devDependencies": {
+
+   }
+}
