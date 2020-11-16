@@ -27,13 +27,15 @@
       "composition-api"
    ],
    "scripts": {
-      "release": "standard-version",
-      "@vue/composition-api": "*"
+      "release": "standard-version"
    },
    "peerDependencies": {
-      "gridsome": "*"
+      "gridsome": "*",
+      "@vue/composition-api": "*",
+      "vue": ">= 2.5 < 3"
    },
    "devDependencies": {
-
+      "@vue/composition-api": "^1.0.0-beta.19",
+      "vue": "^2.6.12"
    }
 }
