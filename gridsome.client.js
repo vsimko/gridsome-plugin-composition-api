@@ -1,9 +1,5 @@
 import VueCompositionAPI from "@vue/composition-api";
-import {VueConstructor} from "vue";
 
-/**
- * @param {VueConstructor} Vue
- */
-export default function (Vue) {
+export default function (Vue, options) {
   Vue.use(VueCompositionAPI);
 }

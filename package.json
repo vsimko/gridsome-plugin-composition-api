@@ -1,5 +1,5 @@
 {
-   "name": "gridsome-vue2-composition-api",
+   "name": "gridsome-plugin-composition-api",
    "description": "Composition API for Gridsome with Vue2",
    "version": "0.0.1",
    "license": "MIT",
@@ -11,7 +11,10 @@
    "bugs": {
       "url": "https://github.com/vsimko/gridsome-plugin-vue2-composition-api/issues"
    },
-   "main": "index.js",
+   "main": "gridsome.client.js",
+   "files": [
+      "gridsome.client.js"
+   ],
    "author": {
       "name": "Viliam Simko",
       "email": "viliam.simko@gmail.com"
@@ -34,8 +37,11 @@
       "@vue/composition-api": "*",
       "vue": ">= 2.5 < 3"
    },
-   "devDependencies": {
+   "dependencies": {
       "@vue/composition-api": "^1.0.0-beta.19",
       "vue": "^2.6.12"
+   },
+   "publishConfig": {
+      "access": "public"
    }
 }
