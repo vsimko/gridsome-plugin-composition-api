@@ -7,14 +7,6 @@
 This plugin enables Composition API inside your Gridsome project even though Gridsome currently relies on Vue2.
 Once Gridsome migrates to Vue3 this plugin becomes obsolete, but you'll have an easier migration path.
 
-### Why you need this plugin
-
-> Why not just registering the `VueCompositionAPI` inside your `src/main.js` file ?
-
-If you did that, the composition API will not be available until the initialization function finishes.
-This might be a problem if you wanted to implement a reactive store using composition api as a lightweight alternative to Vuex.
-However, this plugin is called before `src/main.js`, thus the Composition API is already available during the initialization phase.
-
 ### Install
 
 Use yarn or npm to install it:
