@@ -1,7 +1,7 @@
 {
    "name": "gridsome-plugin-composition-api",
    "description": "Composition API for Gridsome with Vue2",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "license": "MIT",
    "homepage": "https://github.com/vsimko/gridsome-plugin-composition-api",
    "repository": {
@@ -33,8 +33,8 @@
       "release": "standard-version"
    },
    "peerDependencies": {
-      "gridsome": "*",
       "@vue/composition-api": "*",
+      "gridsome": "*",
       "vue": ">= 2.5 < 3"
    },
    "dependencies": {
